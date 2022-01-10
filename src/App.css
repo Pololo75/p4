@@ -2,7 +2,8 @@
   text-align: center;
 }
 .titre{
-    font-size:17em;
+    font-size:10em;
+    height:100%;
 }
 .App-header {
   background-color: #282c34;

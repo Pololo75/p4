@@ -26,10 +26,10 @@ class App extends React.Component {
     componentDidUpdate () {
         if (this.state.endGame === 1){
             this.resetBoard()
-            this.setState({text:'Victoire des jaunes'});
+            this.setState({text:'Victoire des rouges'});
         } else if (this.state.endGame === 2) {
             this.resetBoard()
-            this.setState({text:'Victoire des rouges'});
+            this.setState({text:'Victoire des jaunes'});
         }
     }
 
